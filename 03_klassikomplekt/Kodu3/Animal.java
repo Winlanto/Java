@@ -19,10 +19,12 @@ public abstract class Animal{
 
     public void runDistance(double meters){ System.out.println(animal+" "+name+" ran "+meters+" meters for "+meters/speed+" seconds."); }
 
-    public void Run100(Animal[] animals){
+    public static String[] Run100(Animal[] animals){
         double distance = 100;
-        for(int i=0; i<animals.length; i++){
-            System.out.println("Time: "+distance/animals[i].speed);
+        String[] arr = new String[animals.length];
+        for(int i=0; i<arr.length; i++){
+            arr[i] =  ("Time: "+distance/animals[i].speed+", distance: "+distance);
         }
+        return arr;
     }
 }

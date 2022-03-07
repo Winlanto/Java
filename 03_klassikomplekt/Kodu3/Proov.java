@@ -26,12 +26,16 @@ public class Proov {
         c2.runSeconds(2.5);
         h2.runSeconds(2.5);
         System.out.println();
-        d1.runDistance(100);
-        c1.runDistance(100);
-        h1.runDistance(100);
-        d2.runDistance(100);
-        c2.runDistance(100);
-        h2.runDistance(100);
-        //Animal.Run100();
+        d1.runDistance(200);
+        c1.runDistance(200);
+        h1.runDistance(200);
+        d2.runDistance(200);
+        c2.runDistance(200);
+        h2.runDistance(200);
+        Animal[] sisend = {d1,c1,h1,d2,c2,h2};
+        String[] vastus = Animal.Run100(sisend);
+        for (int i =0; i< sisend.length;i++){
+            System.out.println(vastus[i]);
+        }
     }
 }
