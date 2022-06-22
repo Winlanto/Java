@@ -1,0 +1,14 @@
+Java on keel, mida kasutatakse juba üle 25 aastat. Seda me teame kui general-purpose programming language-it, mida kasutatakse nii objektorienteeruitud kui ka klassi programmeerismisel. 
+WORA (WRITE ONCE RUN ANYWHERE) keele struktuur.
+Kastutusvaldkonnad:
+GUI rakendused
+veebi serverid ja rakenduse serverid
+vahevara rakendused
+veebi rakendused
+mobiilrakendused
+manustatud süsteemid
+ettevõtte rakendused
+java kasutab multitherding-ut
+objektorienteeritud programmeerimisel class, encapsulation, abstraction, inheritance, and polymorphism.
+
+
