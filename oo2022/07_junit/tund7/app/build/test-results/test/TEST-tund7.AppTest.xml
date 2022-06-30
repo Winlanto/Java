@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tund7.AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-06-03T11:03:05" hostname="WINLANTO-NB" time="0.012">
+  <properties/>
+  <testcase name="testText" classname="tund7.AppTest" time="0.005"/>
+  <testcase name="testKorruta" classname="tund7.AppTest" time="0.0"/>
+  <testcase name="testKorrutaNulliga" classname="tund7.AppTest" time="0.0"/>
+  <testcase name="verifyNoExceptionThrown" classname="tund7.AppTest" time="0.006"/>
+  <system-out><![CDATA[Test
+[0, 0]
+0
+Ouna uus asukoht: [4, 6]
+Ouna uus asukoht: [6, 1]
+Ouna uus asukoht: [2, 1]
+[2, 1]
+[[0, 2]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
